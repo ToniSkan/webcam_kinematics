@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package>
+  <name>webcam_kinematics</name>
+  <version>0.1.0</version>
+  <description>webcam_kinematics package</description>
+
+  <maintainer email="oriolorraserra@gmail.com">OriolOrra</maintainer>
+
+  <license>MIT</license>
+  <url type="bugtracker">https://github.com/oriolorra/webcam_kinematics/issues</url>
+  <url type="repository">https://github.com/oriolorra/webcam_kinematics</url>
+
+  <author email="oriolorraserra@gmail.com">Oriol Orra</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>rosbag_storage</build_depend>
+  <build_depend>urdf</build_depend>
+  <build_depend>kdl_parser</build_depend>
+  <build_depend>tf_conversions</build_depend>
+  <build_depend>stdr_msgs</build_depend>
+  <build_depend>stdr_lib</build_depend>
+  
+  <run_depend>roscpp</run_depend>
+  <run_depend>rosbag_storage</run_depend>
+  <run_depend>urdf</run_depend>
+  <run_depend>kdl_parser</run_depend>
+  <run_depend>tf_conversions</run_depend>
+  <run_depend>stdr_msgs</run_depend>
+  <run_depend>stdr_lib</run_depend>
+
+  <export>
+  </export>
+</package>
